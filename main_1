@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Search, Activity, Droplet, Flame, Wheat, Star, AlertCircle, Loader2, Utensils, X, CalendarDays, Plus, PieChart, BookOpen, Sparkles, ChefHat, MessageSquareHeart } from 'lucide-react';
 
 // API Ключ будет автоматически предоставлен окружением
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+const apiKey = "";
 
 // Функция для выполнения запросов с экспоненциальной задержкой
 const fetchWithRetry = async (url, options, maxRetries = 5) => {
